@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Form to apply for course</h1>
+    <form action="post">
+        <div>
+            <label for="username">Name</label>
+            <input type="text" name="username" id="name" placeholder="Enter your name">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="text" name="password" id="password" placeholder="Enterthe password">
+        </div>
+        <div>
+            <label for="gender">gender</label>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+            <label for="subscribe">subscribe to newsletter</label>
+        </div>
+        <div>
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment"></textarea>
+            <input type="submit" value="Submit">
+            <div>
+            <select name="Fruits" id="">
+            <option value="apple">apple</option>             
+            <option value="guava">guava</option>             
+            <option value="orange">orange</option>   
+                </select>
+                      
+            </div>   
+        </div>
+    </form>
+</body>
+
+</html>
